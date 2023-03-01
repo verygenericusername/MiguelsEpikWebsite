@@ -1,0 +1,86 @@
+.title {
+    color:cyan;
+    font-size:50px;
+    font-family:cursive;
+    text-align:center;
+}
+.about {
+    color:white;
+    font-size:35px;
+    font-family:cursive;
+    text-align:center;
+    position:relative;
+    top:-200px;
+}
+.aboutbtn {
+    background-color:blue;
+    color:white;
+    font-family:cursive;
+    font-size:30px;
+    text-align:center;
+    width:100px;
+    height:60px;
+    position:relative;
+    border-radius:8px;
+    transition: all 0.15s;
+    margin:auto;
+}
+.aboutbtn:hover {
+    background-color:cyan;
+    color:white;
+    transform: translateY(-10px);
+}
+.aboutbtn:active {
+    background-color:white;
+    color:white;
+    transform: translateY(10px);
+}
+.join {
+    position:relative;
+    width:185px;
+    height:100px;
+    background-color:blue;
+    color:white;
+    font-size:35px;
+    font-family:cursive;
+    text-align:center;
+    border-radius:8px;
+    border-width:4px;
+    border-style:line;
+    top: 30px;
+    transition: all 0.15s;
+}
+.join:hover {
+    transform: translateY(-10px);
+    background-color: cyan;
+}
+.join:active {
+    transform: translateY(10px);
+    background-color: white;
+}
+.join2 {
+    position:relative;
+    width:185px;
+    height:100px;
+    background-color:blue;
+    color:white;
+    font-size:35px;
+    font-family:cursive;
+    text-align:center;
+    border-radius:8px;
+    border-width:4px;
+    border-style:line;
+    top: 30px;
+    transition: all 0.15s;
+}
+.join2:hover {
+    transform: translateY(-10px);
+    background-color: cyan;
+}
+.join2:active {
+    transform: translateY(10px);
+    background-color: white;
+}
+body {
+    background: linear-gradient(to bottom, blue, cyan);
+}

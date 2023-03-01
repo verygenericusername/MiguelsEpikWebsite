@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Miguel's Epik Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div align="center" style="position:relative; top:20px;">
+            <button class="aboutbtn" onclick="redirect('main.html')">About</button>
+            <button class="aboutbtn" onclick="redirect('server.html')" style="font-size:20px; display:inline-flex; top:-17px;">Discord Server</button>
+            <button class="aboutbtn" onclick="redirect('game.html')" style="font-size:20px; display:inline-flex; top:-17px;">My Game</button>
+        </div>
+        <h1 class="title">Miguel's Epik Website</h1>
+        <img src="logo.jpg" height="70" style="display:flex; margin:auto; position:relative; left:-350px; top:-100px;">
+        <img src="logo.jpg" height="70" style="display:flex; margin:auto; position:relative; left:350px; top:-170px;">
+        <h2 class="about">about me:</h2>
+        <h2 class="about">im miguel</h2>
+        <h2 class="about">i run a discord server</h2>
+        <h2 class="about">i run a game</h2>
+        <h2 class="about">im growing my server</h2>
+        <h2 class="about">and i hate math</h2>
+        <h2 class="about">here is my discord server: <a href="https://discord.gg/2YywhT2bxe">server here</a></h2>
+        <script>
+            function redirect(href){
+                var h = href;
+                var a = document.createElement("a");
+                a.href = h;
+                a.click();
+            }
+        </script>
+    </body>
+</html>

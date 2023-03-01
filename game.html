@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>my game</title>
+    </head>
+    <body>
+        <div align="center" style="position:relative; top:20px;">
+            <button class="aboutbtn" onclick="redirect('main.html')">About</button>
+            <button class="aboutbtn" onclick="redirect('server.html')" style="font-size:20px; display:inline-flex; top:-17px;">Discord Server</button>
+            <button class="aboutbtn" onclick="redirect('game.html')" style="font-size:20px; display:inline-flex; top:-17px;">My Game</button>
+        </div>
+        <h1 class="title">my roblox game</h1>
+        <br>
+        <h1 class="title" style="font-size:30px; color:white;">this is my awesome roblox game</h2>
+        <br>
+        <h1 class="title" style="font-size:30px; color:white;">you should play it, cuz it is a cool game</h1>
+        <br>
+        <div align="center">
+            <img src="logo2.png" height="200">
+        </div>
+        <div align="center">
+            <button class="join2" onclick="redirect('https://www.roblox.com/games/2084880505/Randomness-Mania')">Play Now!</button>
+        </div>
+        <script>
+            function redirect(href) {
+                var h = href;
+                var a = document.createElement("a");
+                a.href = h;
+                a.click();
+            }
+        </script>
+    </body>
+</html>

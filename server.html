@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>discord server</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div align="center" style="position:relative; top:20px;">
+            <button class="aboutbtn" onclick="redirect('main.html')">About</button>
+            <button class="aboutbtn" onclick="redirect('server.html')" style="font-size:20px; display:inline-flex; top:-17px;">Discord Server</button>
+            <button class="aboutbtn" onclick="redirect('game.html')" style="font-size:20px; display:inline-flex; top:-17px;">My Game</button>
+        </div>
+        <h1 class="title">epik discord server</h1>
+        <h2 class="title" style="font-size:30px; color:white;">this is my epik discord server im currently trying to grow.</h2>
+        <br>
+        <h2 class="title" style="font-size:30px; color:white;">you should click that join button if i were you!</h2>
+        <br>
+        <div align="center">
+            <img src="rdc.gif">
+        </div>
+        <div align="center">
+            <button class="join" onclick="redirect('https://discord.gg/2YywhT2bxe')">Join Now!</button>
+        </div>
+        <script>
+            function redirect(href){
+                var h = href;
+                var a = document.createElement("a");
+                a.href = h;
+                a.click();
+            }
+        </script>
+    </body>
+</html>
